@@ -3,7 +3,6 @@
 
 prefix ?= /usr/local
 mandir ?= $(prefix)/share/man
-libexecdir ?= $(prefix)/libexec/git-core
 gitdir ?= $(shell git --exec-path)
 man1dir ?= $(mandir)/man1
 
